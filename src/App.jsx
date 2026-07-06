@@ -206,7 +206,7 @@ function Login({ onAuth, dark, lang }) {
           <p style={{ color:C.sub, fontSize:14, marginTop:4 }}>Access your financial dashboard.</p>
 
           <label style={{ fontSize:13, fontWeight:600, color:C.sub, display:"block", marginTop:22 }}>Email</label>
-          <Field C={C} icon={Mail}><input defaultValue="hatem@finora.io" style={inp(C)} /></Field>
+          <Field C={C} icon={Mail}><input defaultValue="sayedsalam@finora.io" style={inp(C)} /></Field>
 
           <label style={{ fontSize:13, fontWeight:600, color:C.sub, display:"block", marginTop:14 }}>Password</label>
           <Field C={C} icon={Lock}>
@@ -395,7 +395,7 @@ export default function FinoraApp() {
             <div style={{ width:36, height:36, borderRadius:99, background:`linear-gradient(135deg,${NAVY},${CYAN})`,
               display:"flex", alignItems:"center", justifyContent:"center", color:"#fff", fontWeight:700 }}>H</div>
             <div className="hide-mobile">
-              <div style={{ fontSize:13, fontWeight:700 }}>Hatem</div>
+              <div style={{ fontSize:13, fontWeight:700 }}>SAYED SALAM </div>
               <div style={{ fontSize:11, color:C.sub }}>Premium account</div>
             </div>
           </div>
@@ -459,7 +459,7 @@ function Dashboard({ C, cur, tt }) {
   return (
     <div className="finora-rise">
       <div style={{ marginBottom:20 }}>
-        <h1 style={{ fontSize:24, fontWeight:800 }}>{tt.greeting}, Hatem 👋</h1>
+        <h1 style={{ fontSize:24, fontWeight:800 }}>{tt.greeting}, SAYED 👋</h1>
         <p style={{ color:C.sub, marginTop:2 }}>{tt.overview}</p>
       </div>
 
@@ -701,7 +701,7 @@ function Cards({ C, cur }) {
               </div>
               <div style={{ position:"absolute", bottom:54, left:22, fontSize:20, letterSpacing:".18em", fontFamily:"monospace" }}>{c.num}</div>
               <div className="flex items-center justify-between" style={{ position:"absolute", bottom:18, left:22, right:22 }}>
-                <div><div style={{ fontSize:10, opacity:.7 }}>CARD HOLDER</div><div style={{ fontWeight:600 }}>HATEM</div></div>
+                <div><div style={{ fontSize:10, opacity:.7 }}>CARD HOLDER</div><div style={{ fontWeight:600 }}>SAYED</div></div>
                 <div style={{ fontStyle:"italic", fontWeight:800, fontSize:18 }}>{c.name}</div>
               </div>
               {frozen[i] && <div style={{ position:"absolute", inset:0, display:"flex", alignItems:"center", justifyContent:"center",
